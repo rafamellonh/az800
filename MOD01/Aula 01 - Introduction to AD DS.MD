@@ -16,6 +16,7 @@
 
 * Domains
     * É uma unidade administrativa fundamental que organiza os recursos de uma rede, como users, computers, grupos e dispositivos de maneira logica e gerenciavel. 
+    * Voce pode organizar o dominio com relacoes de pai-filho
 
 * Domains trees
     * É uma estrutura hierarquica que consiste em um ou mais dominios que compartilham um namespace continuio.
