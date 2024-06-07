@@ -51,6 +51,7 @@
 ## FSMO
 
 * É recomendado fazer a divisao das FSMO no servidores, deixar as de Florest em um e as de dominio em outro
+* As funcoes de dominio podem ter mais de uma dentro do dominio, as de florestas sao unicas
 
 * Forest oprations masters:
   * Domain naming master
@@ -61,6 +62,8 @@
  
 * Domain oprations masters:
   * RID master
+    * Relative identifier, ele desempenha um papel essencial na alocacao de identificadores relativos (RIDs) que sao usados para criar identificadores unicos de seguranca (SIDs) para objetos no dominio.
+    * Ele que libera o RID para cada objeto (tipo dar um CPF para cada pessoa)
   * Infrasctrucure master
   * PDC emulator master 
 
