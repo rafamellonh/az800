@@ -29,3 +29,22 @@
  
 * Disks
   * Cuidar para nao colocar discos com cache nas configuracoes da VM que sera instalado o ADDS, pois ele perde tempo.
+ 
+## Backup
+
+* Habilitar lixeira do ADDS
+* Nao usar snapshot
+* Ter um backup full (system state)
+* Ter backup do Sysvol
+* Restore Autoritativo e nao autoritativo
+   * Autoritativo, quando executado, ele sera quem tera a copia valida, todos os outros iram buscar as infos a partir dele
+   * Nao autoritativo, quando um dos controladores de dominio nao esta sincronizando, voce volta o system state como nao autoritativo, assim ele vai buscar a replicacao de outro servidor
+
+
+
+
+
+
+
+
+
