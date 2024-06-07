@@ -39,7 +39,30 @@
 * Restore Autoritativo e nao autoritativo
    * Autoritativo, quando executado, ele sera quem tera a copia valida, todos os outros iram buscar as infos a partir dele
    * Nao autoritativo, quando um dos controladores de dominio nao esta sincronizando, voce volta o system state como nao autoritativo, assim ele vai buscar a replicacao de outro servidor
+ 
+## Manage the ADDS global catalog role
 
+
+* Global catalog
+  * Tudo que existe dentro do ADDS vai estar dentro do catalago, com seus parametros, objetos e configuracoes
+  * O primeiro controlador de dominio obrigatoriamento ele sera o catalago global
+  * Voce pode selecionar quem sera o servidor com o catalago global
+
+## FSMO
+
+* É recomendado fazer a divisao das FSMO no servidores, deixar as de Florest em um e as de dominio em outro
+
+* Forest oprations masters:
+  * Domain naming master
+    * Responsavel por gerenciar toda a parte de maming da floresta
+    * Responsavel por gerenciar as alteracoes no namespace do dominio dentro de uma floresta
+  * Schema master
+    * Controla todas as atualizacoes e modificacoes no esquema do Active Directory
+ 
+* Domain oprations masters:
+  * RID master
+  * Infrasctrucure master
+  * PDC emulator master 
 
 
 
