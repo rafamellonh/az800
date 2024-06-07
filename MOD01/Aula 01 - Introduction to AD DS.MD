@@ -29,7 +29,10 @@
     * Representa uma ou mais sub-redees fisicas, sao usados principalmente para gerenciar a replicacao de dados entre controladores de dominio e para otimizar
       a autenticacao e o trafego de rede em uma infra.
 * OUs
+     * É um objeto de container para usarios, computadores, grupos e objetos usado para delegar permissoes, aplicar GPOs e tambem para organizacao
+
 * Containers
+     * É um objeto que fornece uma estrutura organizacional para o uso do ADDS, nao pode ser aplicadas GPOs.
 
 ## Physical components
 
