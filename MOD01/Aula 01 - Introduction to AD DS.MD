@@ -9,6 +9,8 @@
 * Domains
 * Domains trees
 * Forests
+    * É a estrutura de mais alto nivel em uma implantacao do ADDS, é um agrupamento de uma ou mais arvores de dominios que compartilham um esquema comum
+
 * Sites
 * OUs
 * Containers
