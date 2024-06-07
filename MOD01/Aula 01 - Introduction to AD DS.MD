@@ -30,6 +30,13 @@
 ## Physical components
 
 * Domain controllers
+    * É cada servidor que tem a role do active directore instalada e configurada
+
 * Data stores
+    * Refere-se ao repositorio onde os dados do Active directory sao armazenados. Este repositorio é essencial para a operacao do ADDS.
+
 * Global catalog servers
+    * Ele que armazena todas as informacoes de tudo que existe de objetos dentro do AD
+
 * RODCs
+    * É um controlador de dominio somente leitura
