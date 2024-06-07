@@ -5,7 +5,10 @@
 ## Logical components
 
 * Partitions
-    * É basicamente um arquivo NTDS.dis(quase que um banco de dados) onde tem varias particoes, aqui algumas : particao de dominio, particao de configuracao, particao de esquema
+    * É basicamente uma parte do banco de dados do ADDS, banco esse que é um arquivo NTDS.dit(quase que um banco de dados) onde tem varias particoes, aqui algumas : 
+    * particao de dominio : contem usuarios, grupos, computadores e outros objetos do dominio
+    * particao de configuracao : contem os objetos de configuracao da floresta
+    * particao de esquema : contém uma copia do schema
 
 * Schema
     * É um conjunto de definicoes que determinam a estrutura dos dados que podem ser armazenados no diretorio. Ele determina classes de objetos e os atributos que esses
