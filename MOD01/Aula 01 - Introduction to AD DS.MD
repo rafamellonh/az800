@@ -17,6 +17,8 @@
     * É a estrutura de mais alto nivel em uma implantacao do ADDS, é um agrupamento de uma ou mais arvores de dominios que compartilham um esquema comum
 
 * Sites
+    * Representa uma ou mais sub-redees fisicas, sao usados principalmente para gerenciar a replicacao de dados entre controladores de dominio e para otimizar
+      a autenticacao e o trafego de rede em uma infra.
 * OUs
 * Containers
 
