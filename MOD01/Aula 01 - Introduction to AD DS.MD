@@ -38,6 +38,7 @@
 
 * Domain controllers
     * É cada servidor que tem a role do active directore instalada e configurada
+    * Armazena a base de dados do ADDS
 
 * Data stores
     * Refere-se ao repositorio onde os dados do Active directory sao armazenados. Este repositorio é essencial para a operacao do ADDS.
