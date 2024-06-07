@@ -8,3 +8,7 @@
   * Kerberos distribution center
   * Kerberos é um tipo de padrao de autenticacao utilisado pelo active directory
     * Kerberos que cuida de toda autenticacao do ADDS, users, computers SSO  
+
+* Upgrade
+  * Perform in-place upgrade
+  * ADD new server and promote to domain controller
