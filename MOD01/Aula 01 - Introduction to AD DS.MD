@@ -2,7 +2,6 @@
 
 * É um service de diretorio utilisado para centralizar todas identidades dentro da infraestrutura de rede (user, passwords, pcs e etcs)
 
-
 ## Logical components
 
 * Partitions
