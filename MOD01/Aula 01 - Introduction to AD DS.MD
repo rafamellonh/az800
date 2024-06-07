@@ -6,7 +6,11 @@
 
 * Partitions
     * É basicamente um arquivo NTDS.dis(quase que um banco de dados) onde tem varias particoes, aqui algumas : particao de dominio, particao de configuracao, particao de esquema
+
 * Schema
+    * É um conjunto de definicoes que determinam a estrutura dos dados que podem ser armazenados no diretorio. Ele determina classes de objetos e os atributos que esses
+      objetos podem ter.
+
 * Domains
     * É uma unidade administrativa fundamental que organiza os recursos de uma rede, como users, computers, grupos e dispositivos de maneira logica e gerenciavel. 
 
