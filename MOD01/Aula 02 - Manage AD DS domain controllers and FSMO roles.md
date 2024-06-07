@@ -65,7 +65,9 @@
     * Relative identifier, ele desempenha um papel essencial na alocacao de identificadores relativos (RIDs) que sao usados para criar identificadores unicos de seguranca (SIDs) para objetos no dominio.
     * Ele que libera o RID para cada objeto (tipo dar um CPF para cada pessoa)
   * Infrasctrucure master
-  * PDC emulator master 
+     * É reponsavel por cuidar
+  * PDC emulator master da parte da replicacao e validacao de objetos
+  * Quando nao tem todos os servidores como catalago global, ele ira ficar cuidando e validando quando um atributo é alterado
 
 
 
