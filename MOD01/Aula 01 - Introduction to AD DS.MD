@@ -7,6 +7,8 @@
 * Partitions
 * Schema
 * Domains
+    * É uma unidade administrativa fundamental que organiza os recursos de uma rede, como users, computers, grupos e dispositivos de maneira logica e gerenciavel. 
+
 * Domains trees
 * Forests
     * É a estrutura de mais alto nivel em uma implantacao do ADDS, é um agrupamento de uma ou mais arvores de dominios que compartilham um esquema comum
