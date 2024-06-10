@@ -10,6 +10,10 @@
     * particao de configuracao : contem os objetos de configuracao da floresta
     * particao de esquema : contém uma copia do schema
 
+    * Como criar uma AD DS partition?
+        * NtdsUtil.exe
+
+
 * Schema
     * É um conjunto de definicoes que determinam a estrutura dos dados que podem ser armazenados no diretorio. Ele determina classes de objetos e os atributos que esses
       objetos podem ter.
