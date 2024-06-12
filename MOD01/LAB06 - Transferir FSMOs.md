@@ -1,44 +1,44 @@
 ## Transfer FSMO
 
-#Validar posicionamento das FSMOs - OPÇÃO01:
+## Validar posicionamento das FSMOs - OPÇÃO01:
 netdom query fsmo
 
  
 
-#registrar active directory schema
+## registrar active directory schema
 regsvr32 schmmgmt.dll 
 
 
-#Validando FSMOs - OPÇÃO02
+## Validando FSMOs - OPÇÃO02
 
 Get-ADDomain | fl PDCEmulator,RIDMaster,InfrastructureMaster
 
 Get-ADForest | fl SchemaMaster,DomainNamingMaster
 
 
-#Transferir FSMOs de domínio:
+## Transferir FSMOs de domínio:
 Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole PDCEmulator
 Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole RIDMaster
 Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole InfrastructureMaster
 
  
 
-#Transferir FSMOs de infraestrutura:
+## ransferir FSMOs de infraestrutura:
 Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole SchemaMaster
 Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole DomainNamingMaster
 
  
 
-#Transferir todas FSMOs:
+## Transferir todas FSMOs:
 Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEmulator,RIDMaster,InfrastructureMaster,SchemaMaster,DomainNamingMaster
 
  
 
-#Seize FSMOs:
-Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEmulator,RIDMaster,InfrastructureMaster,SchemaMaster,DomainNamingMaster -Force 
+## Seize FSMOs:
+''' Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEmulator,RIDMaster,InfrastructureMaster,SchemaMaster,DomainNamingMaster -Force '''
 
 
-#Transferindo FSMOs com NTDSUtil:
+## Transferindo FSMOs com NTDSUtil:
 Type ntdsutil and press Enter.
 Type roles and press Enter.
 Type connections and press Enter.
