@@ -42,10 +42,10 @@
 
 
 ## Transferindo FSMOs com NTDSUtil:
-Type ntdsutil and press Enter.
-Type roles and press Enter.
-Type connections and press Enter.
-Type connect to server DC01 and press Enter, where DC01 is the server computer name that will transfer the FSMO roles to.
+Type ntdsutil and press Enter.  
+Type roles and press Enter.  
+Type connections and press Enter.  
+Type connect to server DC01 and press Enter, where DC01 is the server computer name that will transfer the FSMO roles to.  
 
 
 ## Modo grafico :
