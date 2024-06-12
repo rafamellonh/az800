@@ -17,15 +17,15 @@ Get-ADForest | fl SchemaMaster,DomainNamingMaster
 
 
 #Transferir FSMOs de domínio:
-Move-ADDirectoryServerOperationMasterRole "vm-adds02" -OperationMasterRole PDCEmulator
-Move-ADDirectoryServerOperationMasterRole "vm-adds02" -OperationMasterRole RIDMaster
-Move-ADDirectoryServerOperationMasterRole "vm-adds02" -OperationMasterRole InfrastructureMaster
+Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole PDCEmulator
+Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole RIDMaster
+Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole InfrastructureMaster
 
  
 
 #Transferir FSMOs de infraestrutura:
-Move-ADDirectoryServerOperationMasterRole "vm-adds02" -OperationMasterRole SchemaMaster
-Move-ADDirectoryServerOperationMasterRole "vm-adds02" -OperationMasterRole DomainNamingMaster
+Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole SchemaMaster
+Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole DomainNamingMaster
 
  
 
