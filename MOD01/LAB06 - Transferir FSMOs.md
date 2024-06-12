@@ -18,13 +18,16 @@
 
 ## Transferir FSMOs de domínio:
 ```Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole PDCEmulator```
+
 ```Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole RIDMaster```
+
 ```Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole InfrastructureMaster```
 
  
 
 ## ransferir FSMOs de infraestrutura:
 ```Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole SchemaMaster```
+
 ```Move-ADDirectoryServerOperationMasterRole "vm-ad" -OperationMasterRole DomainNamingMaster```
 
  
