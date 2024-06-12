@@ -35,7 +35,7 @@ Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEm
  
 
 ## Seize FSMOs:
-''' Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEmulator,RIDMaster,InfrastructureMaster,SchemaMaster,DomainNamingMaster -Force '''
+``` Move-ADDirectoryServerOperationMasterRole "vm-adds01" -OperationMasterRole PDCEmulator,RIDMaster,InfrastructureMaster,SchemaMaster,DomainNamingMaster -Force ```
 
 
 ## Transferindo FSMOs com NTDSUtil:
