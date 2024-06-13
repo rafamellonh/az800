@@ -15,3 +15,8 @@
 * Deve ser definido os usarios e os computadores
     * Allowed RODC Password Replication Group
     * Denied RODC Password Replication Group
+
+* Pode ser necessario dar privilegios de delegacao para um usuario
+    * Clique com botao direito sob o icone do servidor na OU domain controllers dentro de usuarios e computadores
+    * Selecione propriedades e depois selecione managed by e defina o usuario
+    * O usario deve estar sincronizado no grupo : Allowed RODC Password Replication Group 
