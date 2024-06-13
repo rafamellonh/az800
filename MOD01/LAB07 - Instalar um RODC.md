@@ -12,5 +12,6 @@
 * Selecione a opcao install from midia e seleciona os dados que importou do outro servidor AD
 
 * Grupos que serao importantes para o RODC (usados somente para especificar quem podera ter os dados em cache)
+* Deve ser definido os usarios e os computadores
     * Allowed RODC Password Replication Group
     * Denied RODC Password Replication Group
