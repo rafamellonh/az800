@@ -10,3 +10,7 @@
 * Exporte o conteudo para o servidor que sera o RODC
 * Faca o mesmo processo de adicionar um novo servidor DC, so altere as opcoes de Read-only domain controller na segunta tela de conf
 * Selecione a opcao install from midia e seleciona os dados que importou do outro servidor AD
+
+* Grupos que serao importantes para o RODC
+    * Allowed RODC Password Replication Group
+    * Denied RODC Password Replication Group
